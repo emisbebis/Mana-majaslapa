@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktīva viktorīna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(231, 118, 188);">
+    <div id="container">
+        <nav>
+            <ul>
+                <li><a href="index.HTML">Mājas</a></li>
+                <li><a href="spelite.html">Aktivitātes</a>
+                <!-- First Tier Drop Down -->
+              
+            <ul>
+                    <li><a href="RINKIS.HTML">Riņķis</a></li>
+                    <li><a href="poga.HTML">Poga</a></li>
+                    <li><a href="kluci.html">Kluči</a></li>  
+                    <li><a href="viktorina.html">Viktorīna</a></li>
+            </ul>      
+                </li>
+                <li><a href="#">Grāmatas</a>
+                <!-- First Tier Drop Down -->
+                <ul>
+                    <li><a href="atkartojums.html">Atkārtojums</a></li>
+                    <li><a href="kastites.html">Kastīte</a></li>
+                    <li><a href="kasiteeee.html">Ģenerēšana</a></li>
+                    
+                    <ul>
+                        <li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="akmens.html">Darbs</a></li>
+                <li><a href="egle.html">Egles augstums</a></li>
+                <li><a href="mantas.html">Ziemīši</a></li>
+                <li><a href="reģistrācija.html">Pierakstīties</a></li>
+            </ul>
+                
+        </nav>
+      
+    </div> 
+    <h1>Javascript Viktorīna</h1>
+    <p>Cik Latvijā ir bijuši prezidenti?</p>
+    <input type="number" id="answer">
+    <button onclick="checkAnswer()">Pārbaudīt</button>
+    <p id="feedback"></p>
+
+    <script> function checkAnswer() {
+        var answer = document.getElementById("answer").
+        value;
+        var feedback = document.getElementById
+        ("feedback");
+        if (answer === "11") {
+            feedback.innerHTML = "Pareizi!";
+        } else {
+            feedback.innerHTML = "Nepareizi. tu esi stulbs.";
+        }
+        }       
+        </script>
+
+<p>Ik pēc cik gadiem ir vēlēšanas?</p>
+<input type="number" id="answers">
+<button onclick="checkAnswers()">Pārbaudīt</button>
+<p id="feedbacks"></p>
+
+<script> function checkAnswers() {
+    var answer = document.getElementById("answers").
+    value;
+    var feedback = document.getElementById
+    ("feedbacks");
+    if (answer === "4") {
+        feedback.innerHTML = "Pareizi!";
+    } else {
+        feedback.innerHTML = "Nepareizi, skolā esi nesekmīgs.";
+    }
+    }       
+    </script>
+
+<p>Kas ir pašreizējais prezidents?</p>
+<input type="text" id="answera">
+<button onclick="checkAnswera()">Pārbaudīt</button>
+<p id="feedbacka"></p>
+<script> function checkAnswera() {
+    var answer = document.getElementById("answera").
+    value;
+    var feedback = document.getElementById
+    ("feedbacka");
+    if (answer === "Edgars Rinkēvičs") {
+        feedback.innerHTML = "Pareizi!";
+    } else {
+        feedback.innerHTML = "Nepareizi. tu esi negudrs.";
+    }
+    }       
+    </script>
+
+<p>Cik viņam gadi?</p>
+<input type="number" id="answerz">
+<button onclick="checkAnswerz()">Pārbaudīt</button>
+<p id="feedbackz"></p>
+<script> function checkAnswerz() {
+    var answer = document.getElementById("answerz").
+    value;
+    var feedback = document.getElementById
+    ("feedbackz");
+    if (answer === "51") {
+        feedback.innerHTML = "Pareizi!";
+    } else {
+        feedback.innerHTML = "Nepareizi. mēģini dzīvi vēlreiz mošk.";
+    }
+    }       
+    </script>
+</body>
+</html>

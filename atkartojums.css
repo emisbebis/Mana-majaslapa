@@ -1,0 +1,54 @@
+
+#panacota {
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #tiramisu {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 0, 179);
+    border: 5px solid aqua;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #crembrulle {
+    width: 200px;
+    height: 100px;
+   background-color: aqua;
+   border: 5px solid rgb(255, 0, 221);
+   border-radius: 20px 50px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #panacota {
+    color: white; /* Teksts būs balts */
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+#tiramisu {
+    color: black; /* Teksts būs melns */
+    background-color: pink;
+    padding: 10px;
+}
+
+#crembrulle {
+    color: red; /* Teksts būs sarkans */
+    background-color: aqua;
+    padding: 10px;
+}
+
+#panacota {text-align: center;}
+
+#tiramisu {text-align: center;}
+
+#crembrulle {text-align: center;}
